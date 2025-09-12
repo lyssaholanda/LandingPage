@@ -1,0 +1,53 @@
+.parte1 {
+    background-color: rgb(252, 166, 180);
+    height: 600px;
+    display: flex;
+    border: 3px solid black;
+    border-radius: 15px;
+    gap: 200px;
+    justify-content: center;
+    margin: 20px;
+   
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(158, 219, 247);
+}
+
+h1{
+    margin: 20px;
+}
+
+img{
+    margin: 30px;
+    width: 300px;
+}
+
+.porque {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-right: 400px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#missao{
+    width: 600px;
+    height: 400px;
+    font-size: 25px;
+    text-align: center;
+
+}
+#assistir {
+    margin-bottom: 0;
+}
