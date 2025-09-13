@@ -1,6 +1,6 @@
 .parte1 {
     background-color: rgb(252, 166, 180);
-    height: 600px;
+    flex-wrap: wrap;
     display: flex;
     border: 3px solid black;
     border-radius: 15px;
@@ -18,14 +18,16 @@ body{
 
 
 img{
-    margin: 30px;
-    width: 300px;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+   
 }
 
 .porque {
     display: flex;
     flex-direction: column;
-    gap: 40px;
     margin-top: 30px;
     align-items: center;
     justify-content: center;
@@ -47,7 +49,8 @@ img{
 
 }
 #assistir {
-    margin-bottom: 0;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px white;
 }
 
 .clique{
@@ -62,4 +65,34 @@ img{
     border: 5px solid white;
     color: rgb(255, 255, 255);
     background-color: rgb(97, 191, 245);
+    font-size: 16px;
+    cursor: pointer;
+}
+#botao:hover {
+    background-color: rgb(228, 86, 133);
+    transform: scale(1.05);
+}
+
+#p {
+    line-height: 1.5;
+}
+.imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+   
+.parte2{
+   background-color: rgb(252, 166, 180);
+    flex-wrap: wrap;
+    display: flex;
+    border: 3px solid black;
+    border-radius: 15px;
+    gap: 50px;
+    justify-content: center;
+    margin: 20px;
+    padding:20px
+   
+    
 }
